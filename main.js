@@ -4,7 +4,7 @@ searchWormWiki = function(word){
 };
 
 chrome.contextMenus.create({
-  title: "Search in Worm Wiki",
+  title: "Worm Wiki Search",
   contexts:["selection"],
   onclick: searchWormWiki
 });
